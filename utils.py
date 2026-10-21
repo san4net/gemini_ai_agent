@@ -3,7 +3,7 @@ import os
 import google
 from google.genai import types
 
-GOOGLE_API_KEY = 'AQ.Ab8RN6Lud5xZ2-c_iGETQnz3ExvlX7hel3vo1MVBWtxLAAxIKw'
+GOOGLE_API_KEY = ''
 
 def configure_api_key():
     os.environ['GOOGLE_API_KEY'] = GOOGLE_API_KEY
