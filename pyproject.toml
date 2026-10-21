@@ -1,0 +1,13 @@
+[project]
+name = "gemini-ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "asyncpg>=0.32.0",
+    "google-adk>=2.9.1",
+    "ipython>=9.17.1",
+    "jupyter-server>=2.21.1",
+    "kaggle>=2.2.4",
+    "sqlalchemy>=2.0.54",
+]
